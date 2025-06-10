@@ -1,5 +1,8 @@
 name: CI
 
+permissions:
+  actions: [read,write]
+
 on:
   push:  
 
