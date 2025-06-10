@@ -1,10 +1,10 @@
 name: CI
 
-permissions:
-  actions: [read,write]
-
 on:
   push:  
+
+permissions:
+  actions: [read,write]
 
 jobs:
   build:
